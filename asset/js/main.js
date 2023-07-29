@@ -47,5 +47,14 @@ $(document).ready(function() {
         autoplayTimeout:4000,
         autoplayHoverPause:true
     });
+    
+    $('.tenant .owl-carousel').owlCarousel({
+        items:2,
+        smartSpeed:1000,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true
+    });
 
 })

@@ -222,4 +222,135 @@
 }
 .pricing button:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5);
+}
+
+.new .heading {
+  background-color: #f8f8f9;
+  margin-bottom: 4rem;
+}
+.new .heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.new .heading .arrow {
+  bottom: -13%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f8f8f9;
+}
+.new .item-new a {
+  width: 100%;
+}
+.new .item-new a img {
+  width: 100%;
+}
+.new .item-new h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.new .item-new p {
+  color: var(--text-gray);
+  font-size: 0.9rem;
+}
+.new .item-new p span {
+  color: var(--primary-color);
+}
+.new a {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.new a i {
+  padding-left: 7px;
+}
+
+.tenant .heading {
+  background-color: #f8f8f9;
+  margin-bottom: 4rem;
+}
+.tenant .heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.tenant .heading .arrow {
+  bottom: -13%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f8f8f9;
+}
+.tenant .owl-dots {
+  display: none;
+}
+
+.contact .heading {
+  background-color: #f8f8f9;
+  margin-bottom: 4rem;
+}
+.contact .heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.contact .heading .arrow {
+  bottom: -13%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f8f8f9;
+}
+.contact .item-contact {
+  margin-bottom: 40px;
+}
+.contact .item-contact i {
+  color: var(--primary-color);
+  font-size: 4.6rem;
+}
+.contact .item-contact p:nth-of-type(1) {
+  color: var(--text-gray);
+}
+.contact .item-contact p:nth-of-type(2) {
+  font-weight: 700;
+}
+
+.social {
+  background-image: url("../images/social.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+.social .item-social {
+  margin-top: 2rem;
+}
+.social .item-social .icon {
+  font-size: 2.1rem;
+  width: 80px;
+  height: 80px;
+  border: 3px solid var(--primary-color);
+  border-radius: 100%;
+  color: var(--primary-color);
+}
+.social .item-social p {
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer p {
+  color: var(--text-gray);
+  margin-bottom: 0;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
